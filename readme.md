@@ -1,0 +1,15 @@
+# Dotfiles Starset
+My environment settings are collected here
+- Vim (.vimrc)
+- Emacs (.emacs)
+- Alacritty (.alacritty.yml)
+- I3wm (i3/config, i3status/config)
+- ZSH (.zshrc with oh-my-zsh)
+
+> At the moment I am using Mac Os, not GNU / Linux.
+> It is possible that some i3wm settings will not work quite correctly.
+> I also used i3-gaps instead of i3wm.
+> Sometimes I use VSCode with standard settings.
+> The only exceptions are theme (onedark) and vim plugin
+
+### Enjoy your use!

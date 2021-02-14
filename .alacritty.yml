@@ -1,0 +1,76 @@
+#           __                        ________   __   
+#  _______/  |______ _______  ______/   __   \_/  |_ 
+# /  ___/\   __\__  \\_  __ \/  ___/\____    /\   __\
+# \___ \  |  |  / __ \|  | \/\___ \    /    /  |  |  
+#/____  > |__| (____  /__|  /____  >  /____/   |__|  
+#     \/            \/           \/        
+#     
+# https://github.com/stars9t
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+
+  bold:
+    family: JetBrains Mono
+    style: Bold
+
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+
+  size: 14
+
+window:
+  padding:
+    x: 10
+    y: 10
+
+decorations: full
+
+scrolling:
+  history: 0
+
+use_thin_strokes: false
+
+bell:
+  animation: EaseOutExpo
+  color: '0xffffff'
+  duration: 0
+
+background_opacity: 1
+
+live_config_reload: true
+
+debug:
+  render_timer: false
+
+#colors:
+#  primary:
+#    background: '0x07060D'
+#    foreground: '0xa0cbe2'
+#  cursor:
+#    text:       '0x07060D'
+#    cursor:     '0xa0cbe2'
+#  normal:
+#    black:      '0x07060D'
+#    red:        '0x603594'
+#    green:      '0x23599E'
+#    yellow:     '0x5C5DA2'
+#    blue:       '0x1B66CC'
+#    magenta:    '0xA35AA0'
+#    cyan:       '0x48A4CE'
+#    white:      '0xa0cbe2'
+#    bright:
+#    black:      '0x708e9e'
+#    red:        '0x603594'
+#    green:      '0x23599E'
+#    yellow:     '0x5C5DA2'
+#    blue:       '0x1B66CC'
+#    magenta:    '0xA35AA0'
+#    cyan:       '0x48A4CE'
+#    white:      '0xa0cbe2'

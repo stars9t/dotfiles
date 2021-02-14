@@ -1,0 +1,43 @@
+general {
+  output_format = "i3bar"
+  colors = true
+  color_good = "#B8BB26"
+  color_degraded = "#FABD2F"
+  color_bad = "#FB4934"
+}
+
+order += "wireless _first_"
+order += "volume master"
+order += "disk /"
+order += "battery all"
+order += "tztime local"
+
+volume master {
+ 	format_muted = "" 
+	device = "default"
+	mixer = "Master"
+	mixer_idx = 0
+	format = "V: %volume"
+}
+
+wireless _first_ {
+        format_up = "Wi-fi: up"
+        format_down = "Wi-fi: down"
+}
+
+ethernet _first_ {
+        format_up = "E: %ip (%speed)"
+        format_down = "E: down"
+}
+
+battery all {
+        format = "B: %percentage"
+}
+
+disk "/" {
+        format = "D: %avail"
+}
+
+tztime local {
+	format = "%H:%M"
+}
