@@ -1,0 +1,17 @@
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.log
+instance/
+.webassets-cache
+.env
+.venv
+env/
+venv/
+ENV/
+.mypy_cache/
+.dmypy.json
+dmypy.json
