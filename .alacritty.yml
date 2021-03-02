@@ -18,12 +18,15 @@ font:
   italic:
     family: JetBrains Mono
     style: Italic
+  
+  scale_with_dpi: false
 
   bold_italic:
     family: JetBrains Mono
     style: Bold Italic
 
-  size: 14
+  size: 13
+
 
 window:
   padding:
@@ -74,3 +77,5 @@ debug:
 #    magenta:    '0xA35AA0'
 #    cyan:       '0x48A4CE'
 #    white:      '0xa0cbe2'
+env:
+  WINIT_X11_SCALE_FACTOR: "1.0"
