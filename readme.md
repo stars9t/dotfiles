@@ -12,4 +12,7 @@ My environment settings are collected here
 > Sometimes I use VSCode with standard settings.
 > The only exceptions are theme (onedark) and vim plugin
 
+If you have problem with Font-Manager(error whle loading shared libraries: libwebkit2gtk-4.0) - Install the library:
+```sudo pacman -S webkit2gtk```
+
 ### Enjoy your use!
