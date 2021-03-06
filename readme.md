@@ -13,6 +13,16 @@ My environment settings are collected here
 > The only exceptions are theme (onedark) and vim plugin
 
 If you have problem with Font-Manager(error whle loading shared libraries: libwebkit2gtk-4.0) - Install the library:
-```sudo pacman -S webkit2gtk```
+`sudo pacman -S webkit2gtk`
+
+For For the monitors to work properly, you need to install dm. Exapmle:
+`sudo pacman -S lightdm`
+`sudo pacman -S lightdm-gtk-greeter`
+In config "/etc/lightdm/lightdm.conf" write
+> [Seat:\*]
+> greeter-session=lightdm-gtk-greeter
+
+And after enable lightdm:
+`systemctl start lightdm.service && systemctl enable lightdm.service`
 
 ### Enjoy your use!

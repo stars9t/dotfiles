@@ -1,0 +1,2 @@
+xrandr --output HDMI1 --mode 1360x768 --right-of LVDS1
+setxkbmap -option caps:escape
