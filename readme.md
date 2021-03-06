@@ -25,4 +25,7 @@ In config "/etc/lightdm/lightdm.conf" write
 And after enable lightdm:
 `systemctl start lightdm.service && systemctl enable lightdm.service`
 
+For configure lightdm-gtk-greeter install package:
+`yaourt lightdm-gtk-greeter-settints`
+
 ### Enjoy your use!
