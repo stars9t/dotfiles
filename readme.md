@@ -28,4 +28,16 @@ And after enable lightdm:
 For configure lightdm-gtk-greeter install package:
 `yaourt lightdm-gtk-greeter-settints`
 
+Good themes for gtk3:
+https://www.gnome-look.org/p/1280977/
+https://www.gnome-look.org/p/1253999/
+https://www.gnome-look.org/p/1275087/
+https://www.gnome-look.org/p/1099856/
+https://www.gnome-look.org/p/1441725/
+
+Good icons for gtk3:
+https://www.gnome-look.org/s/Gnome/p/1296407
+https://www.gnome-look.org/s/Gnome/p/1166289
+https://www.gnome-look.org/s/Gnome/p/1359276
+
 ### Enjoy your use!
