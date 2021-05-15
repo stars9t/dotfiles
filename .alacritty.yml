@@ -8,11 +8,11 @@
 # https://github.com/stars9t
 font:
   normal:
-    family: Comic Mono
+    family: JetBrains Mono NL
     style: Regular
 
   bold:
-    family: Comic Mono
+    family: JetBrains Mono NL
     style: Bold
 
   scale_with_dpi: false
@@ -22,13 +22,13 @@ font:
 
 window:
   padding:
-    x: 10
-    y: 10
+    x: 5
+    y: 3
 
 decorations: full
 
 scrolling:
-  history: 0
+  history: 1000
 
 use_thin_strokes: false
 
