@@ -10,36 +10,37 @@
 # It will not be overwritten, so edit it as you like.
 
 # i3 config file (v1.667)
-exec_always "setxkbmap -layout us,ru -option grp:win_space_toggle, caps:escape"
-exec_always "sh ~/.screenlayout/layout.sh"
+exec_always "setxkbmap -layout us,ru -option grp:win_space_toggle"
 
 # DualScreen settings
 #exec --no-startup-id xrandr --output HDMI1 --mode 1360x768 --right-of LVDS1
 
 # Gaps 
 gaps outer 0
-gaps inner 5
+gaps inner 3
 
 # General key
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango: JetBrains Mono, Icons 9
+font pango: JetBrains Mono
 
 # Border settings
-new_window pixel 3
+new_window pixel 2
 new_float normal
 
 bindsym $mod+t border toggle
 hide_edge_borders none
 
 # Themes
-client.focused          #755C9C #755C9C #232323 #755C9C   #755C9C
-client.focused_inactive #554173 #554173 #232323 #554173   #755C9C
-client.unfocused        #3B2F4D #3B2F4D #888888 #3B2F4D   #3B2F4D
-client.urgent           #B36487 #B36487 #FFCFE4 #B36487   #B36487
-client.placeholder      #3B2F4D #3B2F4D #636363 #3B2F4D   #3B2F4D
+client.focused          #4B4451 #4B4451 #A29AB7 #4B4451   #4B4451
+client.focused_inactive #3B353F #3B353F #999999 #3B353F   #3B353F
+client.unfocused        #3B353F #3B353F #999999 #3B353F   #3B353F
+client.urgent           #3B353F #3B353F #999999 #3B353F   #3B353F
+client.placeholder      #3B353F #3B353F #999999 #3B353F   #3B353F
+
+client.background       #383838
 
 # Network manager applet for wifi 
 exec --no-startup-id nm-applet
@@ -204,13 +205,6 @@ status_command i3status
 # Wallpaper starting
 exec nitrogen --restore
 
-# Brighntess
-bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
-bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
-
 # Screnshot making
 bindsym $mod+p exec scrot --select
 bindsym $mod+Shift+p exec scrot 
-
-# Settings for 2 monitor
-bindsym $mod+m exec xrandr --output HDMI1 --mode 1360x768 --right-of LVDS1
