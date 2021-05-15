@@ -34,12 +34,6 @@ Plugin 'wadackel/vim-dogrun'
 Plugin 'kaicataldo/material.vim', { 'branch': 'main' }
 Plugin 'yuttie/hydrangea-vim'
 Plugin 'Mizux/vim-colorschemes'
-"blade_runnes
-"deus_ex
-"mouse
-"mouse_v2
-"pencil
-"silenthill
 Plugin 'arzg/vim-colors-xcode'
 Plugin 'sainnhe/sonokai'
 Plugin 'drewtempelmeyer/palenight.vim'
@@ -57,7 +51,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set smarttab
-set colorcolumn=79
 
 "Vim-indent-guides and indent colors
 let g:indent_guides_enable_on_vim_startup = 1
@@ -81,9 +74,6 @@ set hidden
 
 "Set number
 set relativenumber
-"set ruler
-
-"let &term = "xterm-256color"
 
 "Lightline 
 set laststatus=2
@@ -94,11 +84,7 @@ let python_highlighting_all = 1
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 
-"Add ru layout
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
-
-"Enable all terminal colors
-"set t_Co=256
+set t_Co=256
 
 "NerdThree
 map <C-n> :NERDTreeToggle<CR>
@@ -110,19 +96,12 @@ nnoremap <Right> :tabn<Enter>
 
 "Theme
 "Transparent background only for daycula
-let g:daycula_transparent_background=0
-"set termguicolors
-colorscheme Palenight
+"let g:daycula_transparent_background=0
+set termguicolors
 set background=dark
 
-"Transparent background for all themes
-"hi NonText     ctermbg=NONE guibg=NONE
-"hi Normal      ctermbg=NONE guibg=NONE
-"hi LineNr     	ctermbg=NONE guibg=NONE
-"hi SignColumn 	ctermbg=NONE guibg=NONE
-
 let g:lightline = {
-      \ 'colorscheme': 'onedark',
+      \ 'colorscheme': 'dogrun',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
@@ -133,7 +112,7 @@ let g:lightline = {
       \ }
 
 "Rust and python style fix
-let g:python_recommended_style=0
+"let g:python_recommended_style=0
 let g:rust_recommended_style=0
 let g:rustfmt_autosave=1
 
