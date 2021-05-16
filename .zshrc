@@ -10,6 +10,6 @@ precmd() {
 }
 
 setopt prompt_subst
-PROMPT='%B%F{223}%~%f%b %B%F{42}${vcs_info_msg_0_}>%f%b '
+PROMPT='%B%F{251}%~%f%b %B%F{96}${vcs_info_msg_0_}%f%b%B%F{138}>%b%f '
 
 alias ls="ls --color=auto"
